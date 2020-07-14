@@ -1,0 +1,29 @@
+{
+  "name": "natour",
+  "version": "1.0.0",
+  "description": "A travelling website build to strengthen my skills in css using sass technology",
+  "main": "app.js",
+  "scripts": {
+    "compile:sass" : "node-sass sass/main.scss css/style.css -w",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://gitlab.com/github.com/JoshuaOyewole/orisfinatour.git"
+  },
+  "keywords": [
+    "travel",
+    "tours",
+    "orisfina",
+    "sass"
+  ],
+  "author": "Joshua Oyewole",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://gitlab.com/github.com/JoshuaOyewole/orisfinatour/issues"
+  },
+  "homepage": "https://gitlab.com/github.com/JoshuaOyewole/orisfinatour#readme",
+  "devDependencies": {
+    "node-sass": "^4.14.1"
+  }
+}
